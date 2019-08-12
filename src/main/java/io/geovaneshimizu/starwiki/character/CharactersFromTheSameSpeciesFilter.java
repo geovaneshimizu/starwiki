@@ -8,6 +8,6 @@ public class CharactersFromTheSameSpeciesFilter implements BiPredicate<Character
 
     @Override
     public boolean test(Character character1, Character character2) {
-        return CharacterComparator.SAME_SPECIES.compare(character1, character2) == 0;
+        return CharacterComparator.BY_SPECIES.compare(character1, character2) == 0;
     }
 }

@@ -1,2 +1,7 @@
 spring:
   application.name: starwiki
+
+starwiki:
+  repository:
+    swapi:
+      base-url: ${STARWIKI_REPOSITORY_SWAPI_BASE_URL:https://swapi.co/api}

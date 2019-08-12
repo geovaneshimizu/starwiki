@@ -50,7 +50,7 @@ public class Character {
 
     public enum CharacterComparator implements Comparator<Character> {
 
-        SAME_SPECIES {
+        BY_SPECIES {
 
             @Override
             public int compare(Character c1, Character c2) {

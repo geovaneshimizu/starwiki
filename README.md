@@ -51,3 +51,11 @@ $ ./mvnw clean install
 ```
 $ java -jar target/starwiki-0.0.1-SNAPSHOT.jar
 ```
+
+### Configuration
+
+Environment variables that can be set to change the application configuration.
+
+| Name | Description | Optional | Default |
+| ---- | ----------- | -------- | ------- |
+| STARWIKI_REPOSITORY_SWAPI_BASE_URL | Base URL of the *swapi.co* API. | true | https://swapi.co/api |
